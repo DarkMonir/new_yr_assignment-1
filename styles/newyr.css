@@ -3,26 +3,22 @@
 }
 
 .wishing_banner {
-  /* width: 100%;
-  height: 500px;
-  background-color: antiquewhite; */
+ 
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../resources/Banner\ Image.png);
 
   background-size: cover;
   background-position: center;
   border-radius: 16px;
+  margin-bottom: 5em;
 
-  /* padding: 50px, 140px, 0px, 140px; */
 }
-/* .banner{
-  padding: 177px 344px 177px 344px;
-} */
+
 
 .banner_wish {
   color: #fff;
   text-align: center;
-  /* font-family: Merriweather; */
+  font-family: Merriweather;
   font-size: 32px;
   font-weight: 400;
   line-height: normal;
@@ -44,6 +40,7 @@
   font-weight: 700;
   line-height: normal;
   padding: 0px 468px 0px 468px;
+  margin-top: 3em;
 }
 .deals {
   color: #f00;
@@ -65,19 +62,10 @@
 }
 .back {
   text-align: center;
-  /* padding-right: 399px;
-  padding-left: 399px; */
+  
 }
 
-/* .midnight_party {
-  width: 90%;
-  height: 600px;
-  background-image: linear-gradient(90deg, #070211 10%, rgba(7, 2, 17, 0) 100%),
-    url(../resources/Vectorrr.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  
-} */
+
 
 .midnight_party {
   width: 90%;
@@ -90,7 +78,7 @@
   margin-bottom: 120px;
   background-position: center;
   margin-left: 5em;
-  margin-top: 5em;
+  margin-top: 9em;
   display: flex;
 }
 
@@ -271,7 +259,7 @@ padding-top: 2.5em;
 
 .holiday-sale {
   text-align: center;
-  margin-top: 7em;
+  margin-top: 10em;
 }
 .sale-text > h5 {
   color: #070211;
@@ -311,6 +299,27 @@ padding-top: 2.5em;
   margin-bottom: 0;
 }
 
+.gift-opening{
+  position: relative;
+    /* left: 371px;
+    top: 5px; */
+}
+
+.rectangle2{
+  border-radius: 16px 0px 16px 16px;
+background: #F00;
+width: 90%;
+height: 229px;
+flex-shrink: 0;
+}
+.discount{
+  margin-left: 2em;
+  padding-left: 4.9em;
+}
+.taking-gift{
+  margin-left: 2em;
+  padding-left: 1em;
+}
 
 
 
