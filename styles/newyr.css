@@ -179,6 +179,96 @@
   border: none;
 }
 
+.new-best-offer {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.coming-best-offer {
+  text-align: left;
+  width: 200%;
+  padding-left: 5.2em;
+  
+}
+.coming-best-offer h4 {
+  color: #f00;
+  
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: auto;
+  
+}
+.coming-best-offer h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.coming-best-offer p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.best-offer-img{
+  border-radius: 600px;
+border: 15px solid #F00;
+width: 460px;
+height: 460px;
+flex-shrink: 0;
+
+}
+.best-offer-img > img{
+  width: 370px;
+height: 370px;
+flex-shrink: 0;
+padding-left: 3em;
+padding-top: 2.5em;
+}
+
+.new-yr-best-offer{
+  text-align: right;
+  padding-left: 22em;
+  width: 76%;
+
+}
+.new-yr-best-offer h2{
+  color: #F00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.new-yr-best-offer p{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.new-yr-best-offer img{
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
 .holiday-sale {
   text-align: center;
   margin-top: 7em;
@@ -220,6 +310,20 @@
   padding-top: 28px;
   margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .portfolio {
   width: 90%;
@@ -440,13 +544,13 @@
   line-height: normal;
 }
 
-.copyright a{
+.copyright a {
   text-decoration: none;
   color: white;
   padding-right: 70px;
   padding-top: 20px;
 }
 
-.copyright p{
+.copyright p {
   padding-left: 120px;
 }
