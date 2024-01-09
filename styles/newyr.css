@@ -1,0 +1,288 @@
+.body {
+  margin: 0;
+}
+
+.wishing_banner {
+  /* width: 100%;
+  height: 500px;
+  background-color: antiquewhite; */
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Banner\ Image.png);
+
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+
+  /* padding: 50px, 140px, 0px, 140px; */
+}
+/* .banner{
+  padding: 177px 344px 177px 344px;
+} */
+
+.banner_wish {
+  color: #fff;
+  text-align: center;
+  /* font-family: Merriweather; */
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 177px 531px 16px 530px;
+}
+.banner_heading {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  padding: 16px 344px 177px 344px;
+}
+.offer {
+  color: #f00;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 88px;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0px 468px 0px 468px;
+}
+.deals {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 48;
+}
+.catagories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 16;
+}
+.back {
+  text-align: center;
+  /* padding-right: 399px;
+  padding-left: 399px; */
+}
+
+/* .midnight_party {
+  width: 90%;
+  height: 600px;
+  background-image: linear-gradient(90deg, #070211 10%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+} */
+
+.midnight_party {
+  width: 90%;
+  height: 800px;
+  background-image: linear-gradient(90deg, #070211 5%, rgba(7, 2, 17, 0) 100%),
+    url(../resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  margin-bottom: 120px;
+  background-position: center;
+  margin-left: 5em;
+  margin-top: 5em;
+  display: flex;
+}
+
+.text > h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 642px;
+  padding: 1.5em 3em 0em 3em;
+}
+
+.text > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0.5em 13.5em;
+}
+.btn {
+  color: #fff;
+  background-color: #070211;
+  border: none;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  /* font-style: normal; */
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 1.3em 13em;
+}
+.party-image {
+  width: 319.83px;
+  height: 464.662px;
+  padding-top: 8em;
+  padding-left: 4em;
+  flex-direction: column;
+}
+
+.event-decoration {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 90%;
+  height: 800px;
+  flex-shrink: 0;
+  margin-left: 5em;
+  text-align: center;
+}
+.event {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  padding: 5em 0em 2em 0em;
+}
+
+.red {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.btn-red {
+  color: #fff;
+  border-radius: 8px;
+  background: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 16px 32px;
+  border: none;
+}
+
+.holiday-sale {
+  text-align: center;
+  margin-top: 7em;
+}
+.sale-text > h5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.sale-text > h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.red-sale {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.sale-text > p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  padding-top: 28px;
+  margin-bottom: 0;
+}
+
+.portfolio {
+  width: 90%;
+  height: 800px;
+  flex-shrink: 0;
+  margin-left: 5em;
+  margin-top: 9em;
+}
+.portfolio-text > h4 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+  padding-bottom: 6px;
+}
+
+.portfolio-text > h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+.portfolio-text > hp {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.portfolio-gift-image1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+.portfolio-gift-image2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+.single-img{
+  padding: 0 20px 20px;
+  box-shadow: 0 0 30px 2px rgba(0,0,0, .1);
+}
+
+.portfolio-gift-image1 img:hover{
+  opacity: .5;
+  transition: .9s;
+}
+.portfolio-gift-image2 img:hover{
+  opacity: .5;
+  transition: .9s;
+}
